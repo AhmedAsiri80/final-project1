@@ -1,0 +1,42 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "FNi-HZ-VNg"; */
+"FNi-HZ-VNg.title" = "Item";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "IJq-JO-Msi"; */
+"IJq-JO-Msi.text" = "Subtitle";
+
+/* Class = "UINavigationItem"; title = "Music"; ObjectID = "IWK-Eb-063"; */
+"IWK-Eb-063.title" = "Music";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "O3q-eN-fmD"; */
+"O3q-eN-fmD.text" = "Subtitle";
+
+/* Class = "UISearchBar"; placeholder = "Search "; ObjectID = "OKF-v8-dcY"; */
+"OKF-v8-dcY.placeholder" = "Search ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VFm-Mq-F06"; */
+"VFm-Mq-F06.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZGA-d7-Y67"; */
+"ZGA-d7-Y67.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bx8-2u-Zaj"; */
+"bx8-2u-Zaj.text" = "Title";
+
+/* Class = "UILabel"; text = "صوتيات"; ObjectID = "cqQ-jr-rNU"; */
+"cqQ-jr-rNU.text" = "صوتيات";
+
+/* Class = "UILabel"; text = "00.00.00"; ObjectID = "h3m-6l-z2C"; */
+"h3m-6l-z2C.text" = "00.00.00";
+
+/* Class = "UILabel"; text = "التاريخ"; ObjectID = "kBB-aq-g3c"; */
+"kBB-aq-g3c.text" = "التاريخ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nFh-Fu-gL6"; */
+"nFh-Fu-gL6.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "store"; ObjectID = "s7G-KC-dd1"; */
+"s7G-KC-dd1.title" = "store";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "wDU-EF-4eQ"; */
+"wDU-EF-4eQ.text" = "Title";

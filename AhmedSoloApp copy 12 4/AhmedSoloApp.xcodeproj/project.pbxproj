@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C877E5BAE9897DCCBE94C7 /* Pods_AhmedSoloApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F273C778B331FDE8DAE9009A /* Pods_AhmedSoloApp.framework */; };
+		FC15B2C32758F07000DD76BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC15B2C22758F07000DD76BB /* Assets.xcassets */; };
+		FC19761B2779C5CB00E84DD2 /* Soot2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC19761A2779C5CB00E84DD2 /* Soot2VC.swift */; };
+		FC1B00AB2769DFBC008E115F /* MainCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B00AA2769DFBC008E115F /* MainCell2.swift */; };
+		FC1B00AD2769E203008E115F /* Data3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B00AC2769E203008E115F /* Data3.swift */; };
+		FC1C7EDC2779C72900F3796C /* Play2CC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C7EDB2779C72900F3796C /* Play2CC.swift */; };
+		FC1C7F20277AFE8400F3796C /* Data2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C7F1F277AFE8400F3796C /* Data2.swift */; };
+		FC1C7F42277B257500F3796C /* WebVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C7F41277B257500F3796C /* WebVC2.swift */; };
+		FC24476927562FBF005B0643 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24476827562FBF005B0643 /* WebVC.swift */; };
+		FC2919772785B1B2001459B9 /* soot4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2919762785B1B2001459B9 /* soot4VC.swift */; };
+		FC2919792785B434001459B9 /* Data6.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2919782785B434001459B9 /* Data6.swift */; };
+		FC2A047A2764E26700FBE4E3 /* PdfVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A04792764E26700FBE4E3 /* PdfVC.swift */; };
+		FC2A047C2764E52C00FBE4E3 /* Quran.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC2A047B2764E52C00FBE4E3 /* Quran.pdf */; };
+		FC3092AC277C393C005CEE7A /* Soot3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3092AB277C393C005CEE7A /* Soot3VC.swift */; };
+		FC3092AE277C396A005CEE7A /* Data5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3092AD277C3969005CEE7A /* Data5.swift */; };
+		FC3092B0277C3995005CEE7A /* Play3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3092AF277C3995005CEE7A /* Play3VC.swift */; };
+		FC39C9F0278185EB000E84E8 /* ShareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39C9EF278185EB000E84E8 /* ShareVC.swift */; };
+		FC3A6639276095BC00E2BF9A /* QiblahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A6638276095BC00E2BF9A /* QiblahVC.swift */; };
+		FC3A663B2760CE0A00E2BF9A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */; };
+		FC3A663D2760CEB600E2BF9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3A663C2760CEB600E2BF9A /* GoogleService-Info.plist */; };
+		FC3A663F27610DCB00E2BF9A /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */; };
+		FC3A664127614FC000E2BF9A /* YoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A664027614FC000E2BF9A /* YoutubePlayer.swift */; };
+		FC3E0A4027753F8B0072225C /* zakatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3E0A3F27753F8B0072225C /* zakatVC.swift */; };
+		FC4F1A462754DE4100C9DC0F /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */; };
+		FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */; };
+		FC4F1A58275598C300C9DC0F /* TasbihVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F1A57275598C300C9DC0F /* TasbihVC.swift */; };
+		FC53230227623A91000D8056 /* ManasatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53230127623A91000D8056 /* ManasatVC.swift */; };
+		FC5EC1EF2767229800C1F23F /* GestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC1EE2767229800C1F23F /* GestureVC.swift */; };
+		FC5EC1F22767266200C1F23F /* PageImageAuto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC1F12767266200C1F23F /* PageImageAuto.swift */; };
+		FC5EC1F42767274D00C1F23F /* Data1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC1F32767274D00C1F23F /* Data1.swift */; };
+		FC7E38C02753EED500AEAF5D /* Soot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E38BF2753EED500AEAF5D /* Soot.swift */; };
+		FC7E38C22753EF0900AEAF5D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E38C12753EF0900AEAF5D /* Player.swift */; };
+		FC8E468B2753DE3200B6905D /* PrayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E468A2753DE3200B6905D /* PrayVC.swift */; };
+		FC962DF827538FB0006B84C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC962DF727538FB0006B84C7 /* AppDelegate.swift */; };
+		FC962DFA27538FB0006B84C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC962DF927538FB0006B84C7 /* SceneDelegate.swift */; };
+		FC962DFF27538FB0006B84C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC962DFD27538FB0006B84C7 /* Main.storyboard */; };
+		FC962E0427538FB0006B84C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC962E0227538FB0006B84C7 /* LaunchScreen.storyboard */; };
+		FC962E0C27539370006B84C7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC962E0B27539370006B84C7 /* MainVC.swift */; };
+		FC962E0E27539397006B84C7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC962E0D27539397006B84C7 /* Data.swift */; };
+		FC97E36F2768EE6F00BF0554 /* Kufam-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC97E36E2768EE6E00BF0554 /* Kufam-Italic-VariableFont_wght.ttf */; };
+		FC97E3712768EF7700BF0554 /* Vibes-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC97E3702768EF7700BF0554 /* Vibes-Regular.ttf */; };
+		FC97E373276904E400BF0554 /* ArefRuqaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC97E372276904E400BF0554 /* ArefRuqaa-Regular.ttf */; };
+		FC97E3752769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC97E3742769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf */; };
+		FCD1A2C12768739C00296D4B /* ProfileVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1A2C02768739C00296D4B /* ProfileVC2.swift */; };
+		FCD1A2C32768847800296D4B /* MapVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1A2C22768847800296D4B /* MapVC1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20C0AEB930C261B18FE59B00 /* Pods-AhmedSoloApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhmedSoloApp.release.xcconfig"; path = "Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp.release.xcconfig"; sourceTree = "<group>"; };
+		BB31DCA4665576F8D2EF90D4 /* Pods-AhmedSoloApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhmedSoloApp.debug.xcconfig"; path = "Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F273C778B331FDE8DAE9009A /* Pods_AhmedSoloApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AhmedSoloApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC15B2C22758F07000DD76BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC19761A2779C5CB00E84DD2 /* Soot2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soot2VC.swift; sourceTree = "<group>"; };
+		FC1B00AA2769DFBC008E115F /* MainCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell2.swift; sourceTree = "<group>"; };
+		FC1B00AC2769E203008E115F /* Data3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data3.swift; sourceTree = "<group>"; };
+		FC1C7EDB2779C72900F3796C /* Play2CC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play2CC.swift; sourceTree = "<group>"; };
+		FC1C7F1F277AFE8400F3796C /* Data2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data2.swift; sourceTree = "<group>"; };
+		FC1C7F41277B257500F3796C /* WebVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC2.swift; sourceTree = "<group>"; };
+		FC24476827562FBF005B0643 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		FC2919762785B1B2001459B9 /* soot4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soot4VC.swift; sourceTree = "<group>"; };
+		FC2919782785B434001459B9 /* Data6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data6.swift; sourceTree = "<group>"; };
+		FC2A04792764E26700FBE4E3 /* PdfVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfVC.swift; sourceTree = "<group>"; };
+		FC2A047B2764E52C00FBE4E3 /* Quran.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Quran.pdf; sourceTree = "<group>"; };
+		FC3092AB277C393C005CEE7A /* Soot3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soot3VC.swift; sourceTree = "<group>"; };
+		FC3092AD277C3969005CEE7A /* Data5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data5.swift; sourceTree = "<group>"; };
+		FC3092AF277C3995005CEE7A /* Play3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play3VC.swift; sourceTree = "<group>"; };
+		FC39C9EF278185EB000E84E8 /* ShareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareVC.swift; sourceTree = "<group>"; };
+		FC3A6638276095BC00E2BF9A /* QiblahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblahVC.swift; sourceTree = "<group>"; };
+		FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FC3A663C2760CEB600E2BF9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
+		FC3A664027614FC000E2BF9A /* YoutubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubePlayer.swift; sourceTree = "<group>"; };
+		FC3E0A3F27753F8B0072225C /* zakatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zakatVC.swift; sourceTree = "<group>"; };
+		FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
+		FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
+		FC4F1A57275598C300C9DC0F /* TasbihVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbihVC.swift; sourceTree = "<group>"; };
+		FC53230127623A91000D8056 /* ManasatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManasatVC.swift; sourceTree = "<group>"; };
+		FC5EC1EE2767229800C1F23F /* GestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureVC.swift; sourceTree = "<group>"; };
+		FC5EC1F12767266200C1F23F /* PageImageAuto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageImageAuto.swift; sourceTree = "<group>"; };
+		FC5EC1F32767274D00C1F23F /* Data1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data1.swift; sourceTree = "<group>"; };
+		FC7E38BF2753EED500AEAF5D /* Soot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soot.swift; sourceTree = "<group>"; };
+		FC7E38C12753EF0900AEAF5D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FC8E468A2753DE3200B6905D /* PrayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayVC.swift; sourceTree = "<group>"; };
+		FC962DF427538FB0006B84C7 /* AhmedSoloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhmedSoloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC962DF727538FB0006B84C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC962DF927538FB0006B84C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC962DFE27538FB0006B84C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC962E0327538FB0006B84C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC962E0527538FB0006B84C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC962E0B27539370006B84C7 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		FC962E0D27539397006B84C7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FC97E36E2768EE6E00BF0554 /* Kufam-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		FC97E3702768EF7700BF0554 /* Vibes-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vibes-Regular.ttf"; sourceTree = "<group>"; };
+		FC97E372276904E400BF0554 /* ArefRuqaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArefRuqaa-Regular.ttf"; sourceTree = "<group>"; };
+		FC97E3742769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoNastaliqUrdu-Regular.ttf"; sourceTree = "<group>"; };
+		FC97E3792769C3FB00BF0554 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		FC97E37A2769C3FB00BF0554 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FC97E37B2769C4E900BF0554 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FCD1A2C02768739C00296D4B /* ProfileVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC2.swift; sourceTree = "<group>"; };
+		FCD1A2C22768847800296D4B /* MapVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC962DF127538FB0006B84C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C877E5BAE9897DCCBE94C7 /* Pods_AhmedSoloApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		548FF228F5E63974413A2CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F273C778B331FDE8DAE9009A /* Pods_AhmedSoloApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC40B277F303B37EA6457350 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB31DCA4665576F8D2EF90D4 /* Pods-AhmedSoloApp.debug.xcconfig */,
+				20C0AEB930C261B18FE59B00 /* Pods-AhmedSoloApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC962DEB27538FB0006B84C7 = {
+			isa = PBXGroup;
+			children = (
+				FC962DF627538FB0006B84C7 /* AhmedSoloApp */,
+				FC962DF527538FB0006B84C7 /* Products */,
+				AC40B277F303B37EA6457350 /* Pods */,
+				548FF228F5E63974413A2CCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC962DF527538FB0006B84C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC962DF427538FB0006B84C7 /* AhmedSoloApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC962DF627538FB0006B84C7 /* AhmedSoloApp */ = {
+			isa = PBXGroup;
+			children = (
+				FC97E3702768EF7700BF0554 /* Vibes-Regular.ttf */,
+				FC97E36E2768EE6E00BF0554 /* Kufam-Italic-VariableFont_wght.ttf */,
+				FC97E3742769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf */,
+				FC97E372276904E400BF0554 /* ArefRuqaa-Regular.ttf */,
+				FC962DF727538FB0006B84C7 /* AppDelegate.swift */,
+				FC962DF927538FB0006B84C7 /* SceneDelegate.swift */,
+				FC15B2C22758F07000DD76BB /* Assets.xcassets */,
+				FC962DFD27538FB0006B84C7 /* Main.storyboard */,
+				FC962E0227538FB0006B84C7 /* LaunchScreen.storyboard */,
+				FC962E0527538FB0006B84C7 /* Info.plist */,
+				FC3A663C2760CEB600E2BF9A /* GoogleService-Info.plist */,
+				FC97E37C2769DD9C00BF0554 /* Model */,
+				FC97E37D2769DDAC00BF0554 /* View */,
+				FC97E37E2769DDB700BF0554 /* Controller */,
+			);
+			path = AhmedSoloApp;
+			sourceTree = "<group>";
+		};
+		FC97E37C2769DD9C00BF0554 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC962E0D27539397006B84C7 /* Data.swift */,
+				FC2919782785B434001459B9 /* Data6.swift */,
+				FC5EC1F32767274D00C1F23F /* Data1.swift */,
+				FC1C7F1F277AFE8400F3796C /* Data2.swift */,
+				FC1B00AC2769E203008E115F /* Data3.swift */,
+				FC3092AD277C3969005CEE7A /* Data5.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC97E37D2769DDAC00BF0554 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B00AA2769DFBC008E115F /* MainCell2.swift */,
+				FC4F1A472754DE6300C9DC0F /* ReminderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC97E37E2769DDB700BF0554 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A047B2764E52C00FBE4E3 /* Quran.pdf */,
+				FC962E0B27539370006B84C7 /* MainVC.swift */,
+				FC39C9EF278185EB000E84E8 /* ShareVC.swift */,
+				FC1C7F41277B257500F3796C /* WebVC2.swift */,
+				FC2A04792764E26700FBE4E3 /* PdfVC.swift */,
+				FC4F1A57275598C300C9DC0F /* TasbihVC.swift */,
+				FC3E0A3F27753F8B0072225C /* zakatVC.swift */,
+				FCD1A2C22768847800296D4B /* MapVC1.swift */,
+				FC3A6638276095BC00E2BF9A /* QiblahVC.swift */,
+				FC8E468A2753DE3200B6905D /* PrayVC.swift */,
+				FC7E38BF2753EED500AEAF5D /* Soot.swift */,
+				FC7E38C12753EF0900AEAF5D /* Player.swift */,
+				FC19761A2779C5CB00E84DD2 /* Soot2VC.swift */,
+				FC1C7EDB2779C72900F3796C /* Play2CC.swift */,
+				FC3092AB277C393C005CEE7A /* Soot3VC.swift */,
+				FC3092AF277C3995005CEE7A /* Play3VC.swift */,
+				FC2919762785B1B2001459B9 /* soot4VC.swift */,
+				FC4F1A452754DE4100C9DC0F /* ReminderVC.swift */,
+				FC3A663E27610DCB00E2BF9A /* AnimationVC.swift */,
+				FC3A664027614FC000E2BF9A /* YoutubePlayer.swift */,
+				FC5EC1EE2767229800C1F23F /* GestureVC.swift */,
+				FC3A663A2760CE0A00E2BF9A /* LoginVC.swift */,
+				FC53230127623A91000D8056 /* ManasatVC.swift */,
+				FCD1A2C02768739C00296D4B /* ProfileVC2.swift */,
+				FC24476827562FBF005B0643 /* WebVC.swift */,
+				FC5EC1F12767266200C1F23F /* PageImageAuto.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC962DF327538FB0006B84C7 /* AhmedSoloApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC962E0827538FB0006B84C7 /* Build configuration list for PBXNativeTarget "AhmedSoloApp" */;
+			buildPhases = (
+				06A8A343C0BFAB9D394C8FAF /* [CP] Check Pods Manifest.lock */,
+				FC962DF027538FB0006B84C7 /* Sources */,
+				FC962DF127538FB0006B84C7 /* Frameworks */,
+				FC962DF227538FB0006B84C7 /* Resources */,
+				1DCA3ADC5C20003F67AD8C7B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AhmedSoloApp;
+			productName = AhmedSoloApp;
+			productReference = FC962DF427538FB0006B84C7 /* AhmedSoloApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC962DEC27538FB0006B84C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FC962DF327538FB0006B84C7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FC962DEF27538FB0006B84C7 /* Build configuration list for PBXProject "AhmedSoloApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = FC962DEB27538FB0006B84C7;
+			productRefGroup = FC962DF527538FB0006B84C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC962DF327538FB0006B84C7 /* AhmedSoloApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC962DF227538FB0006B84C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC97E3712768EF7700BF0554 /* Vibes-Regular.ttf in Resources */,
+				FC2A047C2764E52C00FBE4E3 /* Quran.pdf in Resources */,
+				FC97E36F2768EE6F00BF0554 /* Kufam-Italic-VariableFont_wght.ttf in Resources */,
+				FC97E3752769052400BF0554 /* NotoNastaliqUrdu-Regular.ttf in Resources */,
+				FC97E373276904E400BF0554 /* ArefRuqaa-Regular.ttf in Resources */,
+				FC962E0427538FB0006B84C7 /* LaunchScreen.storyboard in Resources */,
+				FC962DFF27538FB0006B84C7 /* Main.storyboard in Resources */,
+				FC3A663D2760CEB600E2BF9A /* GoogleService-Info.plist in Resources */,
+				FC15B2C32758F07000DD76BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A8A343C0BFAB9D394C8FAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AhmedSoloApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DCA3ADC5C20003F67AD8C7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AhmedSoloApp/Pods-AhmedSoloApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC962DF027538FB0006B84C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3A664127614FC000E2BF9A /* YoutubePlayer.swift in Sources */,
+				FC1B00AB2769DFBC008E115F /* MainCell2.swift in Sources */,
+				FC1C7F20277AFE8400F3796C /* Data2.swift in Sources */,
+				FC962DF827538FB0006B84C7 /* AppDelegate.swift in Sources */,
+				FC1B00AD2769E203008E115F /* Data3.swift in Sources */,
+				FC7E38C02753EED500AEAF5D /* Soot.swift in Sources */,
+				FC962E0C27539370006B84C7 /* MainVC.swift in Sources */,
+				FC3092AC277C393C005CEE7A /* Soot3VC.swift in Sources */,
+				FC2919792785B434001459B9 /* Data6.swift in Sources */,
+				FC4F1A58275598C300C9DC0F /* TasbihVC.swift in Sources */,
+				FC5EC1F22767266200C1F23F /* PageImageAuto.swift in Sources */,
+				FC3092B0277C3995005CEE7A /* Play3VC.swift in Sources */,
+				FC962DFA27538FB0006B84C7 /* SceneDelegate.swift in Sources */,
+				FC2919772785B1B2001459B9 /* soot4VC.swift in Sources */,
+				FC4F1A462754DE4100C9DC0F /* ReminderVC.swift in Sources */,
+				FC962E0E27539397006B84C7 /* Data.swift in Sources */,
+				FC2A047A2764E26700FBE4E3 /* PdfVC.swift in Sources */,
+				FCD1A2C32768847800296D4B /* MapVC1.swift in Sources */,
+				FC5EC1F42767274D00C1F23F /* Data1.swift in Sources */,
+				FC1C7F42277B257500F3796C /* WebVC2.swift in Sources */,
+				FC7E38C22753EF0900AEAF5D /* Player.swift in Sources */,
+				FCD1A2C12768739C00296D4B /* ProfileVC2.swift in Sources */,
+				FC19761B2779C5CB00E84DD2 /* Soot2VC.swift in Sources */,
+				FC24476927562FBF005B0643 /* WebVC.swift in Sources */,
+				FC5EC1EF2767229800C1F23F /* GestureVC.swift in Sources */,
+				FC39C9F0278185EB000E84E8 /* ShareVC.swift in Sources */,
+				FC3A663B2760CE0A00E2BF9A /* LoginVC.swift in Sources */,
+				FC4F1A482754DE6300C9DC0F /* ReminderCell.swift in Sources */,
+				FC3E0A4027753F8B0072225C /* zakatVC.swift in Sources */,
+				FC3092AE277C396A005CEE7A /* Data5.swift in Sources */,
+				FC1C7EDC2779C72900F3796C /* Play2CC.swift in Sources */,
+				FC3A6639276095BC00E2BF9A /* QiblahVC.swift in Sources */,
+				FC8E468B2753DE3200B6905D /* PrayVC.swift in Sources */,
+				FC53230227623A91000D8056 /* ManasatVC.swift in Sources */,
+				FC3A663F27610DCB00E2BF9A /* AnimationVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC962DFD27538FB0006B84C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC962DFE27538FB0006B84C7 /* Base */,
+				FC97E3792769C3FB00BF0554 /* ar */,
+				FC97E37B2769C4E900BF0554 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC962E0227538FB0006B84C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC962E0327538FB0006B84C7 /* Base */,
+				FC97E37A2769C3FB00BF0554 /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC962E0627538FB0006B84C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC962E0727538FB0006B84C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC962E0927538FB0006B84C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB31DCA4665576F8D2EF90D4 /* Pods-AhmedSoloApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47D3PLR2U9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AhmedSoloApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.AhmedSoloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC962E0A27538FB0006B84C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C0AEB930C261B18FE59B00 /* Pods-AhmedSoloApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47D3PLR2U9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AhmedSoloApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.AhmedSoloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC962DEF27538FB0006B84C7 /* Build configuration list for PBXProject "AhmedSoloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC962E0627538FB0006B84C7 /* Debug */,
+				FC962E0727538FB0006B84C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC962E0827538FB0006B84C7 /* Build configuration list for PBXNativeTarget "AhmedSoloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC962E0927538FB0006B84C7 /* Debug */,
+				FC962E0A27538FB0006B84C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC962DEC27538FB0006B84C7 /* Project object */;
+}
