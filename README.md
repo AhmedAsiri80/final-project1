@@ -116,7 +116,7 @@ I was working on another repo but due to the huge size of files i neeeded to sta
 [Project Repository Link](https://github.com/AhmedAsiri80/final-project1)
 
 # Slides
-[Slides Link]()
+[Slides Link](https://docs.google.com/presentation/d/15CS-3zjIpWC0eX_A99c9UK7IhoJtJUSkEZkxjQZEiXA/edit?usp=sharing)
 
 
 
