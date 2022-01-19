@@ -16,6 +16,11 @@
 
         Remembrance application is an application that displays prayer times, current time, date, audios for the reciters of the Noble Qur’an, as well as live broadcasts to YouTube channels, alerts and reminders, zakat calculation, as well as electronic praise .
 
+The application supports Light / Dark mode
+The application supports English / Arabic
+
+
+
 
 
  # User stories:
