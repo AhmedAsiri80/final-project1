@@ -1,6 +1,7 @@
 # final-project1
 
 I was working on another repo but due to the huge size of files i neeeded to start this one.
+The sounds were removed due to the large file size and the inability to upload it to the time hop, but it is in the demo .
 
 [The old repo url:][https://github.com/AhmedAsiri80/My-Project]
 
